@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+// import css from '../index.css';
 import sampleRecipes from '../sampleRecipes.js';
 
 const RecipeDetail = () => {

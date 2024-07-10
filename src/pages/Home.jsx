@@ -22,7 +22,7 @@ const Home = () => {
       <ul className="food-types">
         {types.map((type, index) => (
           <li key={index}>
-            <Link to={`/type/${type.toLowerCase()}`}>{type}</Link>
+            <Link to={`/type/${type.toLowerCase()}`} className='recipe-types'>{type}</Link>
           </li>
         ))}
       </ul>
@@ -32,7 +32,7 @@ const Home = () => {
           <div key={recipe.id} className="recipe-card">
             <img src={recipe.image} alt={recipe.title} />
             <h3>{recipe.title}</h3>
-            <Link to={`/recipe/${recipe.id}`}>View Recipe</Link>
+            <Link to={`/recipe/${recipe.id}`} className='view-btn'>View Recipe</Link>
           </div>
         ))}
       </div>
