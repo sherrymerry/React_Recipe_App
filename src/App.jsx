@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Sidebar from './components/Hero.jsx';
-import Home from './pages/Home.jsx';
-import RecipeType from './pages/RecipeType.jsx';
+import Home from './components/Home.jsx';
+import RecipeType from './components/RecipeType.jsx';
 import RecipeDetail from './components/RecipeDetail.jsx';
 
 const App = () => {
