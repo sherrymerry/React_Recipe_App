@@ -26,7 +26,7 @@ const Home = () => {
           </li>
         ))}
       </ul>
-      <h2 className='recipe-rated-center'>Top Rated Recipes</h2>
+      <h2 className='recipe-rated-center'>Most Popular Recipes</h2>
       <div className="top-recipes">
         {topRecipes.map(recipe => (
           <div key={recipe.id} className="recipe-card">
