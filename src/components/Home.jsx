@@ -18,7 +18,7 @@ const Home = () => {
       <img style={{width:"50%"}} className='col-md-6' src={recipechef} alt="" />
       </div>
       </div>
-      <h2>Categories</h2>
+      <h2 className='text-center'>Categories</h2>
       <ul className="food-types">
         {types.map((type, index) => (
           <li key={index}>
@@ -26,7 +26,7 @@ const Home = () => {
           </li>
         ))}
       </ul>
-      <h2>Top Rated Recipes</h2>
+      <h2 className='recipe-rated-center'>Top Rated Recipes</h2>
       <div className="top-recipes">
         {topRecipes.map(recipe => (
           <div key={recipe.id} className="recipe-card">
