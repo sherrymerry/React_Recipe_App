@@ -1,4 +1,3 @@
-import React from 'react';
 import { useParams } from 'react-router-dom';
 import RecipeList from '../components/RecipeList.jsx';
 import sampleRecipes from '../sampleRecipes.js';

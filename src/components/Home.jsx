@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import recipechef from '../images/recipe_chef.webp';
 import sampleRecipes from '../sampleRecipes';
